@@ -24,6 +24,8 @@ Dapr Agents is a developer framework for building durable and resilient AI agent
 - **Platform-Ready**: Access scopes and declarative resources enable platform teams to integrate Dapr Agents into their systems.
 - **Vendor-Neutral & Open Source**: Avoid vendor lock-in and gain flexibility across cloud and on-premises deployments.
 
+Adding to this is the recently introduced `workflow` capability allowing agents to be configured specifically for workflow orchestration. This allows the agents to operate exclusively as parts of workflows, without exposing them via HTTP or pub/sub, thus providing secure and contained execution environments inspired by modern application architecture.
+
 ## Key Features
 
 Dapr Agents provides specialized modules designed for creating intelligent, autonomous systems. Each module is designed to work independently, allowing you to use any combination that fits your application needs.
